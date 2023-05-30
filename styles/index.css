@@ -1,10 +1,16 @@
 .container {
-    margin: 100px 250px;
-    padding: 0px;
+    margin: 4vw 3.3vw; /*100px 100px;*/
+    padding: 5px 0px;
     box-sizing: border-box;
-    font-size: 30px;
+    font-size: 2vw;
 }
 
+.description {
+    /* margin: 0px 0px 50px 0px;
+    padding: 0px; */
+    box-sizing: border-box;
+    font-size: 2vw;
+}
 /* Navbar Styling */
 .topnav {
     background-color: #f8f8f8;
@@ -20,9 +26,9 @@
     float: right;
     color: #999999;
     text-align: center;
-    padding: 30px 16px;
+    padding: 2vw 1vw; /* 30px 16px; */
     text-decoration: none;
-    font-size: 22px;
+    font-size: 1.47vw; /* 22px; */
   }
 
   /* Change the color of links on hover */
@@ -38,7 +44,7 @@
     width: 100%;
     overflow: auto;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.3vw;
   }
 
 .fa {
@@ -64,10 +70,15 @@
   }
   
 .left {
-    width: 40%;
+    width: 39%;
+    /* padding: 0px 15px 0px 0px; */
   }
-
+.middle {
+    width: 1%;
+    /* padding: 0px 15px 0px 15px; */
+  }
 .right {
     width: 60%;
     font-size: 20px;
+    column-gap: 15px;
   }

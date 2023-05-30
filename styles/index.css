@@ -2,14 +2,14 @@
     margin: 4vw 3.3vw; /*100px 100px;*/
     padding: 5px 0px;
     box-sizing: border-box;
-    font-size: 2vw;
+    font-size: 30px; /* 30px; */
 }
 
 .description {
     /* margin: 0px 0px 50px 0px;
     padding: 0px; */
     box-sizing: border-box;
-    font-size: 2vw;
+    font-size: 30px;
 }
 /* Navbar Styling */
 .topnav {
@@ -28,7 +28,7 @@
     text-align: center;
     padding: 2vw 1vw; /* 30px 16px; */
     text-decoration: none;
-    font-size: 1.47vw; /* 22px; */
+    font-size: 22px; /* 22px; */
   }
 
   /* Change the color of links on hover */
@@ -44,7 +44,7 @@
     width: 100%;
     overflow: auto;
     text-align: center;
-    font-size: 1.3vw;
+    font-size: 1.3vw; /* 20px; */
   }
 
 .fa {

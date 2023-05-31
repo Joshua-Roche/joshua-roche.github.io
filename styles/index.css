@@ -20,7 +20,7 @@
 }
 /* Navbar Styling */
 .topnav {
-  background-color: #f8f8f8;
+  background-color: #f8f8f8; /* #f8f8f8; */
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -52,7 +52,7 @@
   background-color: #f8f8f8;
   overflow: hidden;
   width: 100%;
-  height: 150px;
+  height: 120px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -93,10 +93,7 @@
   width: 39%;
   font-size: 20px;
 }
-.middle {
-  width: 1%;
-  /* padding: 0px 15px 0px 15px; */
-}
+
 .right {
   width: 60%;
   font-size: 20px;

@@ -2,23 +2,35 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
     <link rel="stylesheet" href="styles/index.css">
 </head>
 
-<div class="topnav">
-    <a style="font-family: Arial" class="active" href="projects">Projects</a>
-    <a style="font-family: Arial" href="about">About</a>
-    <a style="font-family: Arial" href="index">Home</a>
-  </div> 
+<body>
+    <!-- Navigation Bar -->
+    <div class="topnav">
+        <a style="font-family: Arial" class="active" href="projects">Projects</a>
+        <a style="font-family: Arial" href="about">About</a>
+        <a style="font-family: Arial" href="index">Home</a>
+    </div>
 
-<main class="projects">
-    <a class="project-card" href="projects/samplesize/">
-        <img src="images/samplesize.png" width="800" height="800"
-             alt="Power curves of corrected and uncorrected trial designs">
-        <h2>Sample size with misread scans</h2>
-        <p>Sample sizes for PFS, disease control and response when scans are read with error,
-           and how correcting them restores a trial's power.</p>
-    </a>
-</main>
+    <!-- Page title: the container's top margin keeps it clear of the fixed navigation bar -->
+    <div class="container">
+        <h1 style="font-family: Arial">Projects</h1>
+    </div>
+
+    <!-- Project tiles: three per row, centred; add a new <a class="project-card"> block for each project -->
+    <main class="projects">
+        <a class="project-card" href="/projects/samplesize/">
+            <img src="/media/samplesize.png" width="800" height="800"
+                 alt="Power curves of corrected and uncorrected trial designs">
+            <h2>Sample size with misread scans</h2>
+            <p>Sample sizes for PFS, disease control and response when scans are read with error,
+               and how correcting them restores a trial's power.</p>
+        </a>
+    </main>
+</body>
+
+</html>

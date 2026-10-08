@@ -2,20 +2,21 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joshua Roche</title>
     <link rel="stylesheet" href="styles/index.css">
 </head>
 
-<!-- Navigation Bar -->
-<div class="topnav">
-    <a style="font-family: Arial" href="projects">Projects</a>
-    <a style="font-family: Arial" href="about">About</a>
-    <a style="font-family: Arial" class="active" href="index">Home</a>
-</div> 
-
 <!-- Body -->
 <body>
+    <!-- Navigation Bar -->
+    <div class="topnav">
+        <a style="font-family: Arial" href="projects">Projects</a>
+        <a style="font-family: Arial" href="about">About</a>
+        <a style="font-family: Arial" class="active" href="index">Home</a>
+    </div>
+
     <!-- Header Text -->
     <div class="container">
         <h1 style="font-family: Arial">Hi there! I'm Josh.</h1>
@@ -47,12 +48,23 @@
         <h2 style="font-family: Arial">Projects</h2>
         <p style="font-family: Arial; font-size:25px">Some of my projects are listed below. For more information, please visit my <a href="projects">projects page</a>.</p>
     </div>
-</body>
 
-<!-- Footer -->
-<div class="footer">
-    <p style="font-family: Arial">Email:</p>
-    <p style="font-family: Arial">joshua.roche.1@research.glasgow.ac.uk</p>
-</div>
+    <!-- Project tiles (same markup as the projects page) -->
+    <div class="projects">
+        <a class="project-card" href="/projects/samplesize/">
+            <img src="/media/samplesize.png" width="800" height="800"
+                 alt="Power curves of corrected and uncorrected trial designs">
+            <h2>Sample size with misread scans</h2>
+            <p>Sample sizes for PFS, disease control and response when scans are read with error,
+               and how correcting them restores a trial's power.</p>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p style="font-family: Arial">Email:</p>
+        <p style="font-family: Arial">joshua.roche.1@research.glasgow.ac.uk</p>
+    </div>
+</body>
 
 </html>
